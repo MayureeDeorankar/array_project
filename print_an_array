@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	int a[10] , i;
+	int size;
+	cout<<"Enter the size of the array ";
+	cin>>size;
+	for(i=0;i<size;i++)
+	{   //Taking array as input
+		cout<<"\nEnter element no. "<<i+1<<" ";
+		cin>>a[i];
+	}
+	for(i=0;i<size;i++)
+	{
+	cout<<a[i];
+	cout<<"\n";
+    }
+}
